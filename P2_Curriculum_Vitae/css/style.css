@@ -4,21 +4,47 @@
 }
 
 
-
 header{
     display: flex;
     padding: 20px;
-    background-color: red;
-    text-align: center;
+    background-color: #15b0c0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+header .titulo{
+    width: 50%;
+    color: #fff;
+    text-align: right;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 4px;
+}
+
+header .titulo h2{  color: #fff;  }
+header .img{
+    width: 50%;
+    text-align: center;
 }
 
 
+h2{ color: #ff5f17; }
+.text-bold, span{   font-weight: bold;   }
 
 
-span{   font-weight: bold;   }
+.container{
+    display: flex;
+    margin: 20px 200px;
+}
 
 
+.left-side,
+.right-side{
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+}
 
 
+.container-data{  display: flex;  }
+.text-info{ margin-left: 40px;  }
