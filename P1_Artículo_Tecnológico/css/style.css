@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #d3d3d3;
+    margin: 10px 10%;
+}
+
+h1{
+    font-size: 300%;
+    letter-spacing: 10px;
+    text-align: center;
+}
+h2{
+    background-color: #808080;
+    color: #fff;
+    font-size: 200%;
+}
+
+
+.container{
+    display: flex;
+    margin: 10px 100px;
+}
+
+
+.text{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+}
+.text-red{ color: red; font-weight: bold; }
+.text-bwhite{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
